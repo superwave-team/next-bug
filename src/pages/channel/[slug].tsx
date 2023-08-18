@@ -1,4 +1,3 @@
-import { MyLayout } from "@/layout/my-layout";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -16,7 +15,5 @@ function Slug() {
     </div>
   );
 }
-
-Slug.Layout = MyLayout;
 
 export default Slug;
